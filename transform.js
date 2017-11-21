@@ -16,7 +16,7 @@ var CARELINK_TREND_TO_NIGHTSCOUT_TREND = {
 };
 
 function parsePumpTime(pumpTimeString, offset) {
-  return Date.parse(pumpTimeString + ' ' + offset);
+  return Date.parse(timestamp);
 }
 
 function timestampAsString(timestamp) {
